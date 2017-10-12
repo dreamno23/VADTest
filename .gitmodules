@@ -1,0 +1,3 @@
+[submodule "VADTEST/vad"]
+	path = VADTEST/vad
+	url = git@github.com:dreamno23/vad.git
