@@ -7,6 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2AAED2FC1F9DDD4000A0BFDC /* noise_suppression.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AAED2EF1F9DDD3F00A0BFDC /* noise_suppression.c */; };
+		2AAED2FD1F9DDD4000A0BFDC /* noise_suppression_x.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AAED2F11F9DDD3F00A0BFDC /* noise_suppression_x.c */; };
+		2AAED2FE1F9DDD4000A0BFDC /* ns_core.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AAED2F31F9DDD3F00A0BFDC /* ns_core.c */; };
+		2AAED2FF1F9DDD4000A0BFDC /* nsx_core.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AAED2F51F9DDD3F00A0BFDC /* nsx_core.c */; };
+		2AAED3001F9DDD4000A0BFDC /* nsx_core_c.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AAED2F71F9DDD3F00A0BFDC /* nsx_core_c.c */; };
+		2AAED3141F9DE8A300A0BFDC /* WebrtcNS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2AAED3121F9DE8A300A0BFDC /* WebrtcNS.cpp */; };
+		2AAED31F1F9EF2C000A0BFDC /* complex_bit_reverse.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AAED3161F9EF2C000A0BFDC /* complex_bit_reverse.c */; };
+		2AAED3201F9EF2C000A0BFDC /* complex_fft.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AAED3171F9EF2C000A0BFDC /* complex_fft.c */; };
+		2AAED3211F9EF2C000A0BFDC /* copy_set_operations.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AAED3191F9EF2C000A0BFDC /* copy_set_operations.c */; };
+		2AAED3221F9EF2C000A0BFDC /* fft4g.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AAED31A1F9EF2C000A0BFDC /* fft4g.c */; };
+		2AAED3231F9EF2C000A0BFDC /* real_fft.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AAED31C1F9EF2C000A0BFDC /* real_fft.c */; };
+		2AAED3241F9EF2C000A0BFDC /* spl_sqrt_floor.c in Sources */ = {isa = PBXBuildFile; fileRef = 2AAED31E1F9EF2C000A0BFDC /* spl_sqrt_floor.c */; };
 		2AE240AC1F8E1D5200F39DB3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE240AB1F8E1D5200F39DB3 /* AppDelegate.m */; };
 		2AE240AF1F8E1D5200F39DB3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE240AE1F8E1D5200F39DB3 /* ViewController.m */; };
 		2AE240B21F8E1D5200F39DB3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE240B01F8E1D5200F39DB3 /* Main.storyboard */; };
@@ -99,6 +111,29 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2AAED2EE1F9DDD3F00A0BFDC /* defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = defines.h; sourceTree = "<group>"; };
+		2AAED2EF1F9DDD3F00A0BFDC /* noise_suppression.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = noise_suppression.c; sourceTree = "<group>"; };
+		2AAED2F01F9DDD3F00A0BFDC /* noise_suppression.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = noise_suppression.h; sourceTree = "<group>"; };
+		2AAED2F11F9DDD3F00A0BFDC /* noise_suppression_x.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = noise_suppression_x.c; sourceTree = "<group>"; };
+		2AAED2F21F9DDD3F00A0BFDC /* noise_suppression_x.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = noise_suppression_x.h; sourceTree = "<group>"; };
+		2AAED2F31F9DDD3F00A0BFDC /* ns_core.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ns_core.c; sourceTree = "<group>"; };
+		2AAED2F41F9DDD3F00A0BFDC /* ns_core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ns_core.h; sourceTree = "<group>"; };
+		2AAED2F51F9DDD3F00A0BFDC /* nsx_core.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nsx_core.c; sourceTree = "<group>"; };
+		2AAED2F61F9DDD3F00A0BFDC /* nsx_core.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsx_core.h; sourceTree = "<group>"; };
+		2AAED2F71F9DDD3F00A0BFDC /* nsx_core_c.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = nsx_core_c.c; sourceTree = "<group>"; };
+		2AAED2FA1F9DDD3F00A0BFDC /* nsx_defines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = nsx_defines.h; sourceTree = "<group>"; };
+		2AAED2FB1F9DDD3F00A0BFDC /* windows_private.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = windows_private.h; sourceTree = "<group>"; };
+		2AAED3121F9DE8A300A0BFDC /* WebrtcNS.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = WebrtcNS.cpp; sourceTree = "<group>"; };
+		2AAED3131F9DE8A300A0BFDC /* WebrtcNS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WebrtcNS.h; sourceTree = "<group>"; };
+		2AAED3161F9EF2C000A0BFDC /* complex_bit_reverse.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = complex_bit_reverse.c; sourceTree = "<group>"; };
+		2AAED3171F9EF2C000A0BFDC /* complex_fft.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = complex_fft.c; sourceTree = "<group>"; };
+		2AAED3181F9EF2C000A0BFDC /* complex_fft_tables.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = complex_fft_tables.h; sourceTree = "<group>"; };
+		2AAED3191F9EF2C000A0BFDC /* copy_set_operations.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = copy_set_operations.c; sourceTree = "<group>"; };
+		2AAED31A1F9EF2C000A0BFDC /* fft4g.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = fft4g.c; sourceTree = "<group>"; };
+		2AAED31B1F9EF2C000A0BFDC /* fft4g.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = fft4g.h; sourceTree = "<group>"; };
+		2AAED31C1F9EF2C000A0BFDC /* real_fft.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = real_fft.c; sourceTree = "<group>"; };
+		2AAED31D1F9EF2C000A0BFDC /* real_fft.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = real_fft.h; sourceTree = "<group>"; };
+		2AAED31E1F9EF2C000A0BFDC /* spl_sqrt_floor.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = spl_sqrt_floor.c; sourceTree = "<group>"; };
 		2AE240A71F8E1D5200F39DB3 /* VADTEST.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VADTEST.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE240AA1F8E1D5200F39DB3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2AE240AB1F8E1D5200F39DB3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -276,6 +311,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2AAED2ED1F9DDD3F00A0BFDC /* ns */ = {
+			isa = PBXGroup;
+			children = (
+				2AAED2EE1F9DDD3F00A0BFDC /* defines.h */,
+				2AAED2EF1F9DDD3F00A0BFDC /* noise_suppression.c */,
+				2AAED2F01F9DDD3F00A0BFDC /* noise_suppression.h */,
+				2AAED2F11F9DDD3F00A0BFDC /* noise_suppression_x.c */,
+				2AAED2F21F9DDD3F00A0BFDC /* noise_suppression_x.h */,
+				2AAED2F31F9DDD3F00A0BFDC /* ns_core.c */,
+				2AAED2F41F9DDD3F00A0BFDC /* ns_core.h */,
+				2AAED2F51F9DDD3F00A0BFDC /* nsx_core.c */,
+				2AAED2F61F9DDD3F00A0BFDC /* nsx_core.h */,
+				2AAED2F71F9DDD3F00A0BFDC /* nsx_core_c.c */,
+				2AAED2FA1F9DDD3F00A0BFDC /* nsx_defines.h */,
+				2AAED2FB1F9DDD3F00A0BFDC /* windows_private.h */,
+			);
+			path = ns;
+			sourceTree = "<group>";
+		};
+		2AAED3151F9EF2C000A0BFDC /* ns_math */ = {
+			isa = PBXGroup;
+			children = (
+				2AAED3161F9EF2C000A0BFDC /* complex_bit_reverse.c */,
+				2AAED3171F9EF2C000A0BFDC /* complex_fft.c */,
+				2AAED3181F9EF2C000A0BFDC /* complex_fft_tables.h */,
+				2AAED3191F9EF2C000A0BFDC /* copy_set_operations.c */,
+				2AAED31A1F9EF2C000A0BFDC /* fft4g.c */,
+				2AAED31B1F9EF2C000A0BFDC /* fft4g.h */,
+				2AAED31C1F9EF2C000A0BFDC /* real_fft.c */,
+				2AAED31D1F9EF2C000A0BFDC /* real_fft.h */,
+				2AAED31E1F9EF2C000A0BFDC /* spl_sqrt_floor.c */,
+			);
+			path = ns_math;
+			sourceTree = "<group>";
+		};
 		2AE2409E1F8E1D5200F39DB3 = {
 			isa = PBXGroup;
 			children = (
@@ -520,6 +590,8 @@
 			children = (
 				2AE2422B1F8F243D00F39DB3 /* VoiceActiveCheck.cpp */,
 				2AE2422C1F8F243D00F39DB3 /* VoiceActiveCheck.h */,
+				2AAED3121F9DE8A300A0BFDC /* WebrtcNS.cpp */,
+				2AAED3131F9DE8A300A0BFDC /* WebrtcNS.h */,
 				2AE2422D1F8F243D00F39DB3 /* webrtc_vad */,
 			);
 			path = vad;
@@ -528,6 +600,8 @@
 		2AE2422D1F8F243D00F39DB3 /* webrtc_vad */ = {
 			isa = PBXGroup;
 			children = (
+				2AAED3151F9EF2C000A0BFDC /* ns_math */,
+				2AAED2ED1F9DDD3F00A0BFDC /* ns */,
 				2AE2422E1F8F243D00F39DB3 /* core */,
 				2AE2423C1F8F243D00F39DB3 /* LICENSE */,
 				2AE2423D1F8F243D00F39DB3 /* spl */,
@@ -660,6 +734,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AE242551F8F243D00F39DB3 /* webrtc_vad.c in Sources */,
+				2AAED2FD1F9DDD4000A0BFDC /* noise_suppression_x.c in Sources */,
 				2AE241CC1F8F011300F39DB3 /* AESampleRateConverter.m in Sources */,
 				2AE242641F8F243D00F39DB3 /* vector_scaling_operations.c in Sources */,
 				2AE241C11F8F011200F39DB3 /* AEDelayModule.m in Sources */,
@@ -678,7 +753,9 @@
 				2AE241DE1F8F011300F39DB3 /* EZAudioUtilities.m in Sources */,
 				2AE241C21F8F011200F39DB3 /* AEDistortionModule.m in Sources */,
 				2AE241BE1F8F011200F39DB3 /* AEOscillatorModule.m in Sources */,
+				2AAED2FF1F9DDD4000A0BFDC /* nsx_core.c in Sources */,
 				2AE242601F8F243D00F39DB3 /* resample_by_2_internal.c in Sources */,
+				2AAED3001F9DDD4000A0BFDC /* nsx_core_c.c in Sources */,
 				2AE241D01F8F011300F39DB3 /* AEAudioUnitOutput.m in Sources */,
 				2AE241DB1F8F011300F39DB3 /* AERealtimeWatchdog.m in Sources */,
 				2AE241BA1F8F011200F39DB3 /* AESubrendererModule.m in Sources */,
@@ -690,16 +767,21 @@
 				2AE241DA1F8F011300F39DB3 /* AERealtimeWatchdog-arm64.s in Sources */,
 				2AE241CB1F8F011300F39DB3 /* AEReverbModule.m in Sources */,
 				2AE241BC1F8F011200F39DB3 /* AEAudioUnitInputModule.m in Sources */,
+				2AAED3141F9DE8A300A0BFDC /* WebrtcNS.cpp in Sources */,
 				2AE241CA1F8F011300F39DB3 /* AEPeakLimiterModule.m in Sources */,
 				2AE242581F8F243D00F39DB3 /* division_operations.c in Sources */,
 				2AE241CF1F8F011300F39DB3 /* AEAudioFileOutput.m in Sources */,
 				2AE2425D1F8F243D00F39DB3 /* resample.c in Sources */,
+				2AAED3221F9EF2C000A0BFDC /* fft4g.c in Sources */,
 				2AE241D71F8F011300F39DB3 /* AEIOAudioUnit.m in Sources */,
 				2AE241D61F8F011300F39DB3 /* AEDSPUtilities.m in Sources */,
+				2AAED3241F9EF2C000A0BFDC /* spl_sqrt_floor.c in Sources */,
+				2AAED31F1F9EF2C000A0BFDC /* complex_bit_reverse.c in Sources */,
 				2AE241D91F8F011300F39DB3 /* AEMessageQueue.m in Sources */,
 				2AE242521F8F243D00F39DB3 /* vad_filterbank.c in Sources */,
 				2AE241B91F8F011200F39DB3 /* AEModule.m in Sources */,
 				2AE241D11F8F011300F39DB3 /* AERenderer.m in Sources */,
+				2AAED3211F9EF2C000A0BFDC /* copy_set_operations.c in Sources */,
 				2AE241D51F8F011300F39DB3 /* AECircularBuffer.m in Sources */,
 				2AE241DC1F8F011300F39DB3 /* AEUtilities.m in Sources */,
 				2AE241C41F8F011300F39DB3 /* AEHighPassModule.m in Sources */,
@@ -707,9 +789,11 @@
 				2AE241F11F8F01BE00F39DB3 /* AEUtils.mm in Sources */,
 				2AE241B11F8F011200F39DB3 /* AEManagedValue.m in Sources */,
 				2AE241B01F8F011200F39DB3 /* AEBufferStack.m in Sources */,
+				2AAED3201F9EF2C000A0BFDC /* complex_fft.c in Sources */,
 				2AE241CE1F8F011300F39DB3 /* AEAudioFileRecorderModule.m in Sources */,
 				2AE242511F8F243D00F39DB3 /* vad_core.c in Sources */,
 				2AE242621F8F243D00F39DB3 /* spl_init.c in Sources */,
+				2AAED2FC1F9DDD4000A0BFDC /* noise_suppression.c in Sources */,
 				2AE241B21F8F011200F39DB3 /* AERenderContext.m in Sources */,
 				2AE242591F8F243D00F39DB3 /* downsample_fast.c in Sources */,
 				2AE241B71F8F011200F39DB3 /* TPCircularBuffer.c in Sources */,
@@ -729,6 +813,8 @@
 				2AE240AC1F8E1D5200F39DB3 /* AppDelegate.m in Sources */,
 				2AE242571F8F243D00F39DB3 /* cross_correlation.c in Sources */,
 				2AE241C01F8F011200F39DB3 /* AEBandpassModule.m in Sources */,
+				2AAED3231F9EF2C000A0BFDC /* real_fft.c in Sources */,
+				2AAED2FE1F9DDD4000A0BFDC /* ns_core.c in Sources */,
 				2AE2425B1F8F243D00F39DB3 /* get_scaling_square.c in Sources */,
 				2AE241D21F8F011300F39DB3 /* AEAudioBufferListUtilities.m in Sources */,
 			);
